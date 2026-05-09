@@ -1,16 +1,3 @@
-"""
-preprocessing.py
-─────────────────────────────────────────────────────────────────────
-Carga la base de datos MIT-BIH (versión CSV de Kaggle) y aplica:
-  1. Carga del CSV
-  2. Mapeo de etiquetas
-  3. Segmentación / padding a longitud fija
-  4. Normalización Min-Max
-  5. One-hot encoding de etiquetas
-  6. Train/Test split estratificado
-─────────────────────────────────────────────────────────────────────
-"""
-
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -31,8 +18,8 @@ SIGNAL_LEN = 180   # longitud fija de cada segmento (descartar col 187)
 
 
 def cargar_y_preprocesar(
-    train_path: str = "mitbih_train.csv",
-    test_path:  str = "mitbih_test.csv",
+    train_path: str = "DATASET-ECG/mitbih_train.csv",
+    test_path:  str = "DATASET-ECG/mitbih_test.csv",
     test_size:  float = 0.20,
     random_state: int = 42
 ):

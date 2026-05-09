@@ -1,14 +1,3 @@
-"""
-evaluation.py
-─────────────────────────────────────────────────────────────────────
-Evaluación completa de cada modelo:
-  · Precisión, Pérdida, Recall, F1-score (clasificación por clase)
-  · Matriz de confusión (heatmap)
-  · Curvas de accuracy y loss (entrenamiento vs validación)
-  · Tabla comparativa final ANN vs CNN vs RNN
-─────────────────────────────────────────────────────────────────────
-"""
-
 import os
 import numpy as np
 import matplotlib.pyplot as plt

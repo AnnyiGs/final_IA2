@@ -1,13 +1,3 @@
-"""
-models.py
-─────────────────────────────────────────────────────────────────────
-Define las tres arquitecturas de redes neuronales:
-  · crear_ann  → Red Neuronal Artificial (Fully Connected)
-  · crear_cnn  → Red Neuronal Convolucional 1D
-  · crear_rnn  → Red Neuronal Recurrente con capas LSTM
-─────────────────────────────────────────────────────────────────────
-"""
-
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import (
     Dense, Dropout, Flatten,

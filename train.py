@@ -1,14 +1,3 @@
-"""
-train.py
-─────────────────────────────────────────────────────────────────────
-Entrena cualquier modelo Keras con:
-  · EarlyStopping (paciencia 10)
-  · ReduceLROnPlateau (reducción de LR si estanca)
-  · ModelCheckpoint (guarda el mejor peso)
-  · Historial de métricas retornado para graficar
-─────────────────────────────────────────────────────────────────────
-"""
-
 import os
 import time
 from tensorflow.keras.callbacks import (

@@ -1,14 +1,3 @@
-"""
-=====================================================================
-Proyecto: Clasificación de Arritmias - MIT-BIH
-Universidad de Guadalajara - CUCEI
-Seminario de Solución de Problemas de IA II
-Dr. Diego Oliva
-
-Modelos: ANN | CNN | RNN (LSTM)
-=====================================================================
-"""
-
 import warnings
 warnings.filterwarnings("ignore")
 
