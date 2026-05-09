@@ -79,6 +79,3 @@ python zProFinalSSPIA2.py
 - Los resultados se guardan automáticamente en la carpeta `resultados`.
 - El modelo con mejor desempeño se destaca en la comparación final.
 
----
-
-¡Gracias por explorar este proyecto! Si tienes preguntas o sugerencias, no dudes en contribuir o abrir un issue.
