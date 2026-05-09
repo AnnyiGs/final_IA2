@@ -1,1 +1,1 @@
-# final_IA2
+# Proyecto Seminario Inteligencia Artificial 2
